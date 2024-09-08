@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* イメージ：サンリオ　みんなに愛されるおしゃれでおもしろいサイト */
+
+body{
+    margin: 0;
+    text-align: center;
+    /* 色は仮　半透明の画像を入れる */
+    background-color:#CBFFE6;
+    color:#201D28;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5rem;
+}
+.container {
+    width: min(100%, 960px);
+    margin: 0 auto;
+} 
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 4rem;
+}
+.nav{
+    display: flex;
+}
+.nav-list{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 70%;
+    /* background-color: #fff; */
+}
+h2{
+    font-size: 3rem;
+}
+@media (min-width: 576px) {
+    .nav-list{
+        width: 90%;
+    }
+}
+.nav-list li a{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+}
+p{
+    width: 90%;
+    margin: 0 auto;
+}
+@media (min-width: 576px) {
+    p{
+        width: 70%;
+    }
+}
+@media (min-width: 576px) {
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+}
+}
+.nav-list li{
+    width: 50%;
+    background-color: #FEFFBE;
+    margin: 0 auto;
+    padding: 20vh 20bw;
+    border: solid 3px #AFE9FF;
+    border-radius: 25px;/*角の丸み*/
+}
+@media (min-width: 576px) {
+    .nav-list li {
+        width: 25%;
+        background-color: #FEFFBE;
+        margin: 0 auto;
+        border: solid 3px #AFE9FF;
+        border-radius: 25px;/*角の丸み*/
+}
+}
+.list {
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.skills {
+    padding: var(--v-space) 0;
+}
+.skills-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+@media (min-width: 576px) {
+.skills-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+}
+/* @media (min-width: 576px) {
+    .skills-container {
+        display: flex;
+    }
+} */
+.skills-list {
+    flex-direction: column;
+    padding: 5rem;
+    background-color: white;
+    border: solid 3px #AFE9FF;
+    border-radius: 55px;
+}
+@media (min-width: 576px){
+    .skills-list {
+        display: flex;
+        flex-direction: column;
+        padding: 30%;
+        background-color: white;
+        border: solid 3px #AFE9FF;
+        border-radius: 2
+    
+        
+    }
+}
+
+    
+
+.skills-list h4 {
+margin-bottom: 30px;
+font-size: 38px;
+font-weight: 400;
+}
+.css h4{
+margin-bottom: 38px;
+}
+.plan .price {
+margin-top: auto;
+margin-bottom: 22px;
+font-size: 26px;
+font-weight: bold;
+}
+@media (min-width: 576px) {
+    .skills-container{
+         ;
+    }
+    /* .skills {
+        display: flex;  
+    }
+    .skills-list {
+        display: flex;
+        flex-direction: row;
+    } */
+    /* .skills {
+        display: grid;
+    } */
+    .list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+}
+
+li{
+    margin: 20px auto 20px auto;
+} 
+figure{
+    margin: 0 auto;
+}
+@media (min-width: 576px){
+    .works-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+}
+
+input[type="name"]{
+    margin: 0 auto;
+    width:70vw;
+}
+input[type="email"]{
+    margin: 0 auto;
+    width:70vw;
+}
+input[required]{
+    /* 送信できてない時background-color:#E81817; */
+}
+textarea{
+    margin: 0 auto;
+    width: 70vw;
+    height: 30vh;
+    overflow-y: scroll;
+}
+#FEFFBE yumeye
+#FFCFEA yumepink
+#BFB9FF yumevio
